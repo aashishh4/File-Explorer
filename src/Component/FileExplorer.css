@@ -1,0 +1,28 @@
+.file-explorer {
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.node {
+    margin-left: 10px;
+}
+
+.node-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 5px;
+    transition: background 0.3s;
+}
+
+.node-label:hover {
+    background: #e0e0e0;
+}
+
+.children {
+    margin-left: 20px;
+}
